@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: rgb(87, 118, 255);
+            color: white;
+            font-family: 'Protest Riot', sans-serif;
+        }
+
+        .container1{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            margin-top: 30px;
+        }
+
+        .container2{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container2 img{
+            width: 350px;
+            border: 1px solid white;
+        }
+
+        @media (max-width:550px){
+            .container2 img{
+                width: 200px;
+            }
+            .container1 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width:390px){
+            .container2 img{
+                width: 150px;
+            }
+            .container1 {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width:250px){
+            .container2 img{
+                width: 100px;
+            }
+            .container1 {
+                font-size: 0.7rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <h3> Yeshhhhh letsss goooo babe :) </h3>
+        </div>
+        <div class="container2">
+            <img src="https://64.media.tumblr.com/69a276b46a2bd36f75b9f19b1e1760c4/58cf7c56f5a84dcd-0f/s540x810/1d91a6706fde140c18ccba3c11ef13e13b240b42.gif"
+                alt="gif">
+        </div>
+    </div>
+</body>
+
+</html>
